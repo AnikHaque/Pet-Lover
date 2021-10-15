@@ -1,0 +1,150 @@
+@media (max-width: 399.98px) {
+  .d-n {
+    display: none;
+  }
+  .btn-danger {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .btn-secondary {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .booking-form .form {
+    text-align: center;
+  }
+  .booking-form input {
+    padding: 12px 0px 12px 5px;
+    width: 60%;
+  }
+  .btn-info {
+    padding: 12px 61px;
+  }
+  .booking-inner {
+    grid-template-columns: 1fr;
+  }
+  .choose-icon h5 {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .team {
+    margin: 20px 0px;
+  }
+}
+
+/* 
+Small devices (portrait phones,less then 576px)
+*/
+
+@media (max-width: 575.98px) {
+  .navbar-nav .nav-link {
+    padding: 12px 21px !important;
+    background-color: none;
+    margin-top: 5px;
+  }
+  .navbar-text a {
+    margin: 20px 0px 30px 0px;
+    display: block;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: -7%;
+  }
+  .booking-content h1 {
+    font-size: 30px;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .carousel-caption h1 {
+    font-size: 26px;
+  }
+  .carousel-caption p {
+    font-size: 16px;
+  }
+  .booking-form .form {
+    text-align: center;
+  }
+  .booking-form input {
+    width: 100%;
+  }
+  .booking-inner {
+    grid-template-columns: 1fr;
+  }
+  .price1 {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .team {
+    margin: 20px 0px;
+  }
+  .service-heading h1 {
+    font-size: 31px;
+  }
+  .card-body h5 {
+    font-size: 22px;
+  }
+  .footer-menu h4 {
+    padding: 0 !important;
+  }
+  .footer-menu ul {
+    padding: 0;
+  }
+}
+/* 
+Small devices (landscape phones, 576px and up)
+  */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .team {
+    margin: 20px 0px;
+  }
+  .footer-menu h4 {
+    padding: 0 !important;
+  }
+  .footer-menu ul {
+    padding: 0;
+  }
+}
+
+/* 
+Medium devices (tablets, 768px and up)
+  */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-nav .nav-link {
+    padding: 12px 21px !important;
+    background-color: none;
+    margin-top: 5px;
+  }
+  .navbar-text a {
+    margin: 20px 0px 30px 0px;
+    display: block;
+  }
+  .special-care h1 {
+    font-size: 38px;
+  }
+  .price1 {
+    margin-bottom: 50px;
+  }
+  .team {
+    margin: 20px 0px;
+  }
+}
+
+/* 
+Large devices (Desktops, 992px and up)
+  */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .special-care h1 {
+    font-size: 47px;
+    margin: -6px 0px;
+  }
+}
+/* 
+Extra large devices (large desktops, 1200px and up)
+  */
+
+@media (min-width: 1200px) {
+}
